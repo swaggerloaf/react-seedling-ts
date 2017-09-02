@@ -6,6 +6,6 @@ export interface AppProps { compiler: string; framework: string; }
 // State is never set so we use the 'undefined' type.
 export class App extends React.Component<AppProps, undefined> {
     render() {
-        return <h1>Hello bra from {this.props.compiler} and {this.props.framework}!</h1>;
+        return <h1>Hello braski from {this.props.compiler} and {this.props.framework}!</h1>;
     }
 }

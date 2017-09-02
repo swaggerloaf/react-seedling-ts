@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server --watch --hot",
+    "start": "node_modules/.bin/webpack-dev-server --watch --hot --inline ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,8 +12,13 @@
   "dependencies": {
     "@types/react": "^16.0.5",
     "@types/react-dom": "^15.5.4",
+    "@types/react-icons":"2.2.2",
+    "@types/react-redux":"5.0.6",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-icons": "2.2.5",
+    "redux":"3.7.2",
+    "react-redux":"5.0.6"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.2.3",

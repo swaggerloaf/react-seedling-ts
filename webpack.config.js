@@ -4,8 +4,8 @@ var BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 module.exports = {
     entry: "./src/index.tsx",
     output: {
-        filename: "bundle.js",
-        path: __dirname + "/dist"
+        filename: "bundle.js"
+       // path: __dirname + "/dist"
     },
 
     // Enable sourcemaps for debugging webpack's output.
