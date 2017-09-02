@@ -15,7 +15,6 @@
     ],
     "types": [
         "react",
-        "react-dom",
-        "react-redux"
+        "react-dom"
    ]
 }
