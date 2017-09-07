@@ -1,4 +1,5 @@
 import * as React from "react";
+import * as Hammer from "hammerjs";
 
 export interface AppProps { name: string;}
 
