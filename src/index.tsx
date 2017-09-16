@@ -3,7 +3,9 @@ import * as ReactDOM from "react-dom";
 
 import { App } from "./components/app";
 
+const element = <App name="quickerer" />;
+
 ReactDOM.render(
-    <App name="quick" />,
+    element,
     document.getElementById("root")
 );
